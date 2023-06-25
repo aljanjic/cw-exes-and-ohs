@@ -16,4 +16,5 @@ describe('exesOhs', () => {
   it('"xXXxoo" should return false', () => {
     expect(exesOhs('xXXxoo')).toBe(false);
   });
+
 });
